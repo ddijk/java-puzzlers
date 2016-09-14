@@ -38,18 +38,8 @@
             </goals>
             <configuration>
               <sources>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-86</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-87</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-88</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-89</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-90</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-91</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-92</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-93</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-94</source>
-                <source>src-puzzlers/10-advanced-puzzlers/puzzle-95</source>
+                  <!--
                 <source>src-puzzlers/2-expressive-puzzlers/puzzle-1</source>
-                <source>src-puzzlers/2-expressive-puzzlers/puzzle-10</source>
                 <source>src-puzzlers/2-expressive-puzzlers/puzzle-2</source>
                 <source>src-puzzlers/2-expressive-puzzlers/puzzle-3</source>
                 <source>src-puzzlers/2-expressive-puzzlers/puzzle-4</source>
@@ -58,6 +48,7 @@
                 <source>src-puzzlers/2-expressive-puzzlers/puzzle-7</source>
                 <source>src-puzzlers/2-expressive-puzzlers/puzzle-8</source>
                 <source>src-puzzlers/2-expressive-puzzlers/puzzle-9</source>
+                <source>src-puzzlers/2-expressive-puzzlers/puzzle-10</source>
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-11</source>
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-12</source>
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-13</source>
@@ -65,7 +56,9 @@
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-15</source>
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-16</source>
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-17</source>
+                -->
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-18</source>
+                <!--
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-19</source>
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-20/com/javapuzzlers</source>
                 <source>src-puzzlers/3-puzzlers-with-character/puzzle-21/com/javapuzzlers</source>
@@ -135,11 +128,46 @@
                 <source>src-puzzlers/9-more-library-puzzlers/puzzle-83</source>
                 <source>src-puzzlers/9-more-library-puzzlers/puzzle-84</source>
                 <source>src-puzzlers/9-more-library-puzzlers/puzzle-85</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-86</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-87</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-88</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-89</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-90</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-91</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-92</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-93</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-94</source>
+                <source>src-puzzlers/10-advanced-puzzlers/puzzle-95</source>
+                -->
               </sources>
             </configuration>
           </execution>
         </executions>
       </plugin>
+      <!--
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+        <executions>
+          <execution>
+            <id>default-testCompile</id>
+            <phase>test-compile</phase>
+            <configuration>
+              <testIncludes>
+                <include>**/jsfunit/*.java</include>
+              </testIncludes>
+            </configuration>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      -->
     </plugins>
   </build>
 </project>
