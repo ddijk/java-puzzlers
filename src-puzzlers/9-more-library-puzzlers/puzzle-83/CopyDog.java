@@ -1,11 +1,13 @@
+
 public class CopyDog {
-    public static void main(String[] args) {
-        Dog newDog = null; //??? ; // You figure out what to put here
 
-        // This line should print false
-        System.out.println(newDog == Dog.INSTANCE);
+	public static void main(String[] args) {
+		Dog3 newDog = null; //??? ; // You figure out what to put here
 
-        // This line should print "Woof"
-        System.out.println(newDog);
-    }
+		// This line should print false
+		System.out.println(newDog == Dog3.INSTANCE);
+
+		// This line should print "Woof"
+		System.out.println(newDog);
+	}
 }

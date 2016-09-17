@@ -104,6 +104,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src-puzzlers/10-advanced-puzzlers/puzzle-94" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src-puzzlers/10-advanced-puzzlers/puzzle-95" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-test-sources" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src-test-puzzlers/puzzle-18" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/maven-status" />
       <excludeFolder url="file://$MODULE_DIR$/target/surefire" />

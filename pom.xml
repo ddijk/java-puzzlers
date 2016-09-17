@@ -37,10 +37,9 @@
 							<goal>add-source</goal>
 						</goals>
 						<configuration>
-		    
+
 							<sources>
-		      
-								<!--
+
 								<source>src-puzzlers/2-expressive-puzzlers/puzzle-1</source>
 								<source>src-puzzlers/2-expressive-puzzlers/puzzle-2</source>
 								<source>src-puzzlers/2-expressive-puzzlers/puzzle-3</source>
@@ -64,9 +63,7 @@
 								<source>src-puzzlers/3-puzzlers-with-character/puzzle-21/com/javapuzzlers</source>
 								<source>src-puzzlers/3-puzzlers-with-character/puzzle-22</source>
 								<source>src-puzzlers/3-puzzlers-with-character/puzzle-23</source>
-								-->
 								<source>src-puzzlers/4-loopy-puzzlers/puzzle-24</source>
-								<!--
 								<source>src-puzzlers/4-loopy-puzzlers/puzzle-25</source>
 								<source>src-puzzlers/4-loopy-puzzlers/puzzle-26</source>
 								<source>src-puzzlers/4-loopy-puzzlers/puzzle-27</source>
@@ -140,10 +137,10 @@
 								<source>src-puzzlers/10-advanced-puzzlers/puzzle-93</source>
 								<source>src-puzzlers/10-advanced-puzzlers/puzzle-94</source>
 								<source>src-puzzlers/10-advanced-puzzlers/puzzle-95</source>
-								-->
 							</sources>
 						</configuration>
 					</execution>
+                    <!--
 					<execution>
 						<id>add-test-source</id>
 						<phase>generate-test-sources</phase>
@@ -156,6 +153,7 @@
 							</sources>
 						</configuration>
 					</execution>
+					-->
 				</executions>
 			</plugin>
 			<!--
